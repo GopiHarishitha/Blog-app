@@ -1,0 +1,8 @@
+.userprof {
+  color: var(--backcolor) !important;
+  width: 10%;
+}
+.userprof {
+  background-color: var(--backcolor) !important;
+  color: white !important;
+}

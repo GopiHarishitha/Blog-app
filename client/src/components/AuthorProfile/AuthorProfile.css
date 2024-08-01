@@ -1,0 +1,15 @@
+.auth-prof .li {
+  font-size: 1.3rem;
+}
+.my-nav-link {
+  color: var(--backcolor) !important;
+}
+.my-nav-link:hover {
+  border-bottom: 2px solid var(--backcolor) !important;
+}
+.li .active {
+  font-size: 1.4rem;
+  /* if you change the previous will be affected */
+  background-color: var(--backcolor) !important;
+  color: white !important;
+}

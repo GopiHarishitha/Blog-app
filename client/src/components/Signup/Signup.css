@@ -1,0 +1,12 @@
+.signup {
+  background-color: rgb(223, 223, 223);
+  width: 45%;
+  margin: auto;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  color: var(--backcolor);
+}
+.for-image {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlKCXYp1PXDppKCuxzvqXc5NA8EsmyCm2ZaqeyPMg_S3LhhwpPJkK-gADlS4LqXaudYUQ&usqp=CAU");
+}

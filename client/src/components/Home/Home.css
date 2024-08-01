@@ -1,0 +1,24 @@
+.home-div {
+  background: linear-gradient(
+      to right,
+      rgba(65, 11, 11, 0.466),
+      rgba(0, 0, 0, 0.471)
+    ),
+    /* Gradient */
+      url("https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_640.jpg")
+      /* Image */;
+  background-repeat: none;
+  background-size: cover;
+  min-height: 100vh;
+}
+.content-container {
+  font-size: 2em;
+  color: whitesmoke;
+  width: 50%;
+  text-align: justify;
+  margin-left: 40%;
+}
+.content {
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.549);
+}

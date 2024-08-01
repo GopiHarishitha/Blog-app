@@ -1,0 +1,37 @@
+//user-api Requests
+//user registration
+POST http://localhost:4000/user-api/user 
+Content-Type: application/json
+
+{
+    "userType": "user",
+    "username": "ravi",
+    "password": "ravi",
+    "email": "ravi@gmail.com"
+}
+
+###
+//user login
+POST http://localhost:4000/user-api/login
+Content-Type: application/json
+
+{
+    "userType": "user",
+    "username": "ravi",
+    "password": "ravi"
+}
+
+###
+// reading articles of all users
+GET http://localhost:4000/user-api/articles
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJhdmkiLCJpYXQiOjE3MTEzMzkyMzUsImV4cCI6MTcxMTQyNTYzNX0.IciRhqbNdtFQc1XNXtMU9Jg7xNtEWT_bUsb22waChoI
+
+###
+// adding comment
+POST http://localhost:4000/user-api/comment/1710167614
+Content-Type: application/json
+
+{
+    "username": "ravi",
+    "comment": "This is a useful article"
+}

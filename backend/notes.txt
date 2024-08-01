@@ -1,0 +1,8 @@
+we will write environment variables in .env file
+environment variables are the variables provided by the environment 
+
+Ex. now we are using port 4000
+There is no guarantee that the same port 4000 will be free on the real server
+We have to enable that feature using environment variables
+
+uppercase naming convention for environment variables

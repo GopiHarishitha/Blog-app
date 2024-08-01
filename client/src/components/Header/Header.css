@@ -1,0 +1,26 @@
+.nav-bar {
+  background-color: var(--backcolor);
+}
+.nav-link {
+  font-size: 2em;
+  color: white !important;
+}
+.ul {
+  background-color: var(--backcolor);
+}
+.nav {
+  align-items: center;
+}
+.nav-item {
+  color: white;
+  align-items: center;
+}
+.signout {
+  color: white!important;
+}
+.active,
+.signout:hover {
+  color: var(--backcolor) !important;
+  background-color: white !important;
+  border-radius: 5%;
+}
